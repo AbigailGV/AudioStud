@@ -12,18 +12,38 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
-<body>
-      <div class="card-panel blue darken-2 white-text"><img class="responsive-img" src="https://i.ibb.co/ZVy8mkB/Logo.png"alt="Una app moderna, amigable con el usuario, fácil de usar, segura y funcional."> </div>
+<style type="text/css">
+      div {
+        text-align: justify;
+      }
+
+      h1.monospace {
+        font-family: "Courier New", Courier, monospace;
+      }
+
+    </style>
+
+    <body>
+    
+  <nav>
+    <div class="nav-wrapper yellow accent-3">
+      <a href="#" class="brand-logo"><img class="responsive-img" src="https://i.ibb.co/cxsP5th/Audio-Stud-removebg-preview.png" style="width:50px" title="Una app moderna, amigable con el usuario, fácil de usar, segura y funcional."></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#¿qué">¿Qué es?</a></li>
+        <li><a href="#competidores">Competidores</a></li>
+        <li><a href="#objetivos">Objetivos</a></li>
+      </ul>
+    </div>
+  </nav>
 
       <div class="container">
         <!-- Page Content goes here -->
+<h1 class= "monospace" align="center">AudioStud</h1>
 
-<h2>SOBRE NUESTRO PRODUCTO</h2>
-
-<p class="flow-text">Un pequeño poema: </p> 
+<p class="flow-text" align="right">Un pequeño poema: </p> 
     <!-- Modal Trigger -->
             <div class= "row">
-          <div class="col s9"><a class="waves-effect waves-light btn modal-trigger"  href="#modal1">Poema</a>
+          <div class="col s6 offset-s10"><a class="waves-effect waves-light yellow darken-4 btn modal-trigger" href="#modal1">Poema</a>
           </div>
   <!-- Modal Structure -->
   <div id="modal1" class="modal">
@@ -36,18 +56,24 @@
     </div>
   </div>
 </div>
-      
-<p class="flow-text">AudioStud es una aplicación fácil de usar que busca funcionar como un reproductor de notas de estudio con funciones especiales dirigidas al aprendizaje del usuario. Aquellas personas cuyo método de aprendizaje predominante es el auditivo necesitan una alternativa que les permita mejorar su rendimiento al momento de estudiar. Por eso creamos AudioStud.</p> 
 
-<div class="column">
-    <p align="center">
-    <img id="imagen" src="https://cdn.pixabay.com/photo/2017/08/06/12/52/people-2592247_960_720.jpg" alt="Puedes hacer diferentes actividades y estudiar al mismo tiempo."></p>
-</div>
+    <h3 id="¿qué">¿Qué es?</h3>
+<p class="flow-text">
+Es una aplicación fácil de usar que busca funcionar como un reproductor de notas de estudio con funciones especiales dirigidas al aprendizaje del usuario. Aquellas personas cuyo método de aprendizaje predominante es el auditivo necesitan una alternativa que les permita mejorar su rendimiento al momento de estudiar. Por eso creamos AudioStud.</p> 
 
 <p class="flow-text">
 Nuestra aplicación permitirá que el usuario grabe sus notas de estudio con su propia voz, o bien, que las ingrese por escrito y seleccione alguna voz ajena que las lea por él (como diferentes tonos de voz, en diferentes acentos e idiomas). Además podrá organizarlas por carpetas y subcarpetas de colores, según el tema y la materia que esté estudiando. Por último, AudioStud funcionará en todos los sistemas operativos y contará con reconocimiento vía auxiliar, mp3 o bluetooth para que se pueda reproducir en todos lados y dispositivos. De esta forma, el usuario podrá aprovechar su tiempo en aquellas ocasiones que desea estudiar pero no puede leer porque debe hacer otra cosa (como conducir, cocinar, limpiar, bañarse, entre otras actividades).</p>
 
-<h3>Hipótesis</h3>
+<div class="column">
+    <p align="center">
+    <img id="imagen" src="https://cdn.pixabay.com/photo/2017/08/06/12/52/people-2592247_960_720.jpg" title="Puedes hacer diferentes actividades y estudiar al mismo tiempo."></p>
+</div>
+
+<h3 id= "competidores">Competidores</h3>
+<p class="flow-text">
+Nuestros principales competidores podrían ser aplicaciones de reproducción de audio como “Notas de voz” o de audiolibros como “Kindle”. Sin embargo, no hay nada igual en el mercado. Buscaremos generar ganancias mediante convenios con patrocinadores y sistemas operativos, así como vendiendo la aplicación a un precio sumamente accesible ($1 USD). Corremos el riesgo de no dar a conocer la aplicación lo suficiente o que no funcione de forma óptima, pero los convenios y patrocinios nos ayudarán a resolver estos problemas.</p>
+
+<h3 id= "objetivos">Objetivos</h3>
 
 <div>
   <table class= "responsive-table">
@@ -78,8 +104,6 @@ Nuestra aplicación permitirá que el usuario grabe sus notas de estudio con su 
 </div>
 
 <p class="flow-text">
-Nuestros principales competidores podrían ser aplicaciones de reproducción de audio como “Notas de voz” o de audiolibros como “Kindle”. Sin embargo, no hay nada igual en el mercado. Buscaremos generar ganancias mediante convenios con patrocinadores y sistemas operativos, así como vendiendo la aplicación a un precio sumamente accesible ($1 USD). Corremos el riesgo de no dar a conocer la aplicación lo suficiente o que no funcione de forma óptima, pero los convenios y patrocinios nos ayudarán a resolver estos problemas.</p>
-<p class="flow-text">
 AudioStud se verá y comportará como una app moderna, amigable con el usuario, fácil de usar, segura y funcional. Cuando los usuarios comiencen a optimizar la forma en la que aprenden gracias a nuestra app, sabremos que hemos triunfado.
 </p>
       <div class="column">
@@ -89,8 +113,10 @@ AudioStud se verá y comportará como una app moderna, amigable con el usuario, 
           <i class="large material-icons">fast_rewind</i></p> 
       </div>
 </div>
-  </body>
-    <footer class="page-footer blue darken-2">
+
+
+    </body>
+    <footer class="page-footer yellow accent-4">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
@@ -109,7 +135,7 @@ AudioStud se verá y comportará como una app moderna, amigable con el usuario, 
           <div class="footer-copyright">
             <div class="container">
             © 2019 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <a class="grey-text text-lighten-4 right" href="https://www.gestiopolis.com/la-importancia-de-estudiar/">More Links</a>
             </div>
           </div>
         </footer>
