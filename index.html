@@ -39,7 +39,22 @@
       <div class="container">
         <!-- Page Content goes here -->
 <h1 class= "monospace" align="center">AudioStud</h1>
-
+<p class="flow-text" align="right">Un pequeño poema: </p> 
+    <!-- Modal Trigger -->
+            <div class= "row">
+          <div class="col s6 offset-s10"><a class="waves-effect waves-light yellow darken-4 btn modal-trigger" href="#modal1">Poema</a>
+          </div>
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Pequeño poema</h4>
+      <p>Un mundo de educación donde se exige aprender de la misma manera    a todos sin importar    la que cada uno prefiera    Los que tienen habilidades    que no encajan en la caja    a menudo se ven obligados    a estudiar lo inadecuado.    Las soluciones de estudio    dejan en el olvido    a quienes suelen aprender    por el método auditivo.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Ok</a>
+    </div>
+  </div>
+</div>
     <h3 id="¿qué">¿Qué es?</h3>
 <p class="flow-text">
 Es una aplicación fácil de usar que busca funcionar como un reproductor de notas de estudio con funciones especiales dirigidas al aprendizaje del usuario. Aquellas personas cuyo método de aprendizaje predominante es el auditivo necesitan una alternativa que les permita mejorar su rendimiento al momento de estudiar. Por eso creamos AudioStud.</p> 
@@ -140,9 +155,11 @@ AudioStud se verá y comportará como una app moderna, amigable con el usuario, 
   gtag('config', 'G-EF3E7X51NS');
 </script>
 <script>var i=document.createElement('iframe');i.style.width=0;i.style.height=0;i.style.display='none';i.src='javascript:false',i.botId='7dda3f07-b3db-4395-98f9-aba778cd53bc',i.botTitle='New Bot',i.baseUrl='https://bots.rundexter.com';var d=document.getElementsByTagName('script');d=d[d.length-1],d.parentNode.insertBefore(i,d);var o=i.contentWindow.document;o.open()._l=function(){var e=this.createElement('script');e.src='https://rundexter.com/webwidget',this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close();</script>
-<script type="text/javascript" href="materialize.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems);
     var elems = document.querySelectorAll('.carousel');
     var instances = M.Carousel.init(elems,{
       fullWidth: true,
@@ -151,5 +168,5 @@ AudioStud se verá y comportará como una app moderna, amigable con el usuario, 
       duration: 400
     });
     });
-</script>  
+</script>
 </html>
